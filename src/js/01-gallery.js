@@ -1,11 +1,8 @@
-// Add imports above this line
 import { galleryItems } from './gallery-items';
-// Change code below this line
-// Описан в документации
 import SimpleLightbox from "simplelightbox";
 // Дополнительный импорт стилей
 import "simplelightbox/dist/simple-lightbox.min.css";
-console.log(galleryItems);
+// console.log(galleryItems);
 
 const divRef = document.querySelector('.gallery');
 
@@ -24,7 +21,7 @@ divRef.addEventListener('click', showOriginalImg);
 
 function showOriginalImg(e) {
   e.preventDefault();
-  console.log(e);
+  // console.log(e);
 
   let galleryShow = new SimpleLightbox('.gallery a', {
     captions: true,
