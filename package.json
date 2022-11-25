@@ -5,7 +5,8 @@
   "homepage": "https://leo-moon.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/",
+    "nmb": "npm run build"
   },
   "repository": {
     "type": "git",
