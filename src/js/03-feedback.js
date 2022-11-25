@@ -25,6 +25,8 @@ function dataStartStorage() {
   const data = JSON.parse(localStorage.getItem('feedback-form-state'));
   const email = document.querySelector('.feedback-form input');
   const message = document.querySelector('.feedback-form textarea');
+  console.log('data.email',data.email);
+  console.log('data.message',data.message);
   email.value = (data.email) ? data.email: "";
   message.value = (data.message) ? data.message: "";
 };
